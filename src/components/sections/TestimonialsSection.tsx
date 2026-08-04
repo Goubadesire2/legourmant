@@ -10,7 +10,7 @@ interface Testimonial {
   avatar: string;
   rating: number;
   date: string;
-  source: 'Google' | 'TripAdvisor' | 'Guide Michelin';
+  source: 'Toit rouge' | 'TripAdvisor' | 'Guide Michelin';
   content: string;
   highlight: string;
 }
@@ -18,12 +18,12 @@ interface Testimonial {
 const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    author: 'Sophie & Marc L.',
+    author: 'Taoré lucie.',
     role: 'Clients réguliers',
     avatar: '/image/avatar1.avif',
     rating: 5,
     date: 'Il y a 2 semaines',
-    source: 'Google',
+    source: 'Toit rouge',
     highlight: 'Une expérience culinaire inoubliable',
     content: 'Nous avons célébré notre anniversaire de mariage à la Table du Chef. Le service était d’une délicatesse rare et les accords mets-vins proposés par le sommelier étaient tout simplement parfaits.',
   },

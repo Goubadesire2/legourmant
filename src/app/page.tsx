@@ -51,10 +51,10 @@ export default function Home() {
       <footer className="border-t border-border/40 bg-card/40 py-12 backdrop-blur-sm">
         <div className="mx-auto max-w-7xl px-6 text-center text-xs text-muted-foreground">
           <p className="font-serif-title text-base font-semibold text-foreground mb-2">
-            L'ÉPICURIEN
+            LE GOURMANT
           </p>
-          <p className="mb-4">12 Rue de la Haute Gastronomie, 75008 Paris • 01 42 68 55 00</p>
-          <p>© {new Date().getFullYear()} L'Épicurien. Tous droits réservés.</p>
+          <p className="mb-4">12 Rue des start, 75008 Abidjan • 05 00 80 20 28</p>
+          <p>© {new Date().getFullYear()} © 2026 Le Gourmand. Tous droits réservés.</p>
         </div>
       </footer>
 
